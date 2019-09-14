@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bike Walnut Creek</title>
+    <title>Bike Pleasant Hill</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,10 +45,10 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll hidden-xs visible-sm visible-md visible-lg visible-xl" href="#page-top">
-                    Bike Walnut Creek
+                    Bike Pleasant Hill
                 </a> 
                 <a class="navbar-brand page-scroll visible-xs hidden-sm hidden-md hidden-lg hidden-xl" href="#page-top">
-                    BWC
+                    BPH
                 </a>
             </div>
 
@@ -100,7 +100,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About</h2>
-                <p>Bike Walnut Creek is a non-profit social organization founded in 2012 as a local working group of <a href="https://bikeeastbay.org/">Bike East Bay</a>.</p><p>Our vision is to create a comfortable and safe environment for bicyclists of all ages and abilities.</p><p>We do this by providing free services to bicyclists and advocating the city to create usable spaces for bicyclists and pedestrians.</p>
+                <p>Bike Pleasant Hill is a non-profit social organization founded in 2019 as a local working group of <a href="https://bikeeastbay.org/">Bike East Bay</a>.</p><p>Our vision is to create a comfortable and safe environment for bicyclists of all ages and abilities in the city of Pleasant Hill, California.</p><p>We do this by providing free services to bicyclists and advocating the city to create usable spaces for bicyclists and pedestrians.</p>
             </div>
         </div>
     </section>
@@ -120,240 +120,6 @@
         </div>
     </section>
 
-    <!-- Counts Section -->
-    <section id="counts" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <!-- <style type="text/css">
-                    #map {height: 1000px;}
-                </style> -->
-                <h2>Counts</h2>
-                <p>Twice a year our amazing volunteers count bicyclists and pedestrians on city streets. The most recent bike counts for 42 locations over the last 5 years are displayed in the map below. The larger the circle, the more bicyclists counted. The information collected tells us important information such as where to find the majority of bicyclists (on trails) and the gender distribution of bicyclists (data not shown).
-                <div id="map"></div>
-                <script>
-                    var citymap = {
-                        1: {
-                            center: {lat: 37.897172, lng: -122.059918},
-                            population: 69
-                        },
-                        2: {
-                            center: {lat: 37.922683, lng: -122.054778},
-                            population: 173
-                        },
-                        3: {
-                            center: {lat: 37.920404, lng: -122.033634},
-                            population: 19
-                        },
-                        4: {
-                            center: {lat: 37.899985, lng: -122.063921},
-                            population: 27
-                        },
-                        5: {
-                            center: {lat: 37.892598, lng: -122.061426},
-                            population: 46
-                        },
-                        6: {
-                            center: {lat: 37.917299, lng: -122.039014},
-                            population: 48
-                        },
-                        7: {
-                            center: {lat: 37.928131, lng: -122.015282},
-                            population: 15
-                        },
-                        8: {
-                            center: {lat: 37.898948, lng: -122.056191},
-                            population: 32
-                        },
-                        9: {
-                            center: {lat: 37.904599, lng: -122.065584},
-                            population: 36
-                        },
-                        10: {
-                            center: {lat: 37.892827, lng: -122.059865},
-                            population: 20
-                        },
-                        11: {
-                            center: {lat: 37.895942, lng: -122.063197},
-                            population: 12
-                        },
-                        12: {
-                            center: {lat: 37.911235, lng: -122.05994},
-                            population: 22
-                        },
-                        13: {
-                            center: {lat: 37.921938, lng: -122.057628},
-                            population: 120
-                        },
-                        14: {
-                            center: {lat: 37.926388, lng: -122.065114},
-                            population: 13
-                        },
-                        15: {
-                            center: {lat: 37.904954, lng: -122.065755},
-                            population: 42
-                        },
-                        16: {
-                            center: {lat: 37.892683, lng: -122.060885},
-                            population: 31
-                        },
-                        17: {
-                            center: {lat: 37.917027, lng: -122.065724},
-                            population: 11
-                        },
-                        18: {
-                            center: {lat: 37.922878, lng: -122.055247},
-                            population: 215
-                        },
-                        19: {
-                            center: {lat: 37.909476, lng: -122.069795},
-                            population: 16
-                        },
-                        20: {
-                            center: {lat: 37.900814, lng: -122.061421},
-                            population: 22
-                        },
-                        21: {
-                            center: {lat: 37.915656, lng: -122.05662},
-                            population: 175
-                        },
-                        22: {
-                            center: {lat: 37.897426, lng: -122.059616},
-                            population: 30
-                        },
-                        23: {
-                            center: {lat: 37.90063, lng: -122.059031},
-                            population: 22
-                        },
-                        24: {
-                            center: {lat: 37.897728, lng: -122.058615},
-                            population: 41
-                        },
-                        25: {
-                            center: {lat: 37.911793, lng: -122.06187},
-                            population: 7
-                        },
-                        26: {
-                            center: {lat: 37.897466, lng: -122.059474},
-                            population: 25
-                        },
-                        27: {
-                            center: {lat: 37.920828, lng: -122.034317},
-                            population: 9
-                        },
-                        28: {
-                            center: {lat: 37.92183, lng: -122.058557},
-                            population: 114
-                        },
-                        29: {
-                            center: {lat: 37.911944, lng: -122.065422},
-                            population: 8
-                        },
-                        30: {
-                            center: {lat: 37.912, lng: -122.065124},
-                            population: 8
-                        },
-                        31: {
-                            center: {lat: 37.906551, lng: -122.058868},
-                            population: 8
-                        },
-                        32: {
-                            center: {lat: 37.902604, lng: -122.060937},
-                            population: 26
-                        },
-                        34: {
-                            center: {lat: 37.912, lng: -122.065124},
-                            population: 11
-                        },
-                        35: {
-                            center: {lat: 37.92654, lng: -122.055453},
-                            population: 13
-                        },
-                        36: {
-                            center: {lat: 37.906789, lng: -122.058566},
-                            population: 15
-                        },
-                        37: {
-                            center: {lat: 37.921353, lng: -122.035172},
-                            population: 4
-                        },
-                        38: {
-                            center: {lat: 37.90483, lng: -122.068471},
-                            population: 104
-                        },
-                        39: {
-                            center: {lat: 37.879856, lng: -122.048795},
-                            population: 22
-                        },
-                        40: {
-                            center: {lat: 37.904158, lng: -122.068416},
-                            population: 18
-                        },
-                        42: {
-                            center: {lat: 37.902448, lng: -122.060958},
-                            population: 8
-                        },
-                        43: {
-                            center: {lat: 37.893684, lng: -122.054812},
-                            population: 25
-                        },
-                        44: {
-                            center: {lat: 37.879717, lng: -122.048689},
-                            population: 32
-                        }
-                    };
-
-                    function initMap() {
-                      var map = new google.maps.Map(document.getElementById('map'), {
-                                                  zoom: 13,
-                                                  //center: {lat: 37.8996, lng: -122.0623},
-                                                  center: {lat: 37.91, lng: -122.0623},
-                                                  styles: [
-                                                           {
-                                                           featureType: 'all',
-                                                           stylers: [
-                                                                     { saturation: -80 }
-                                                                     ]
-                                                           },{
-                                                           featureType: 'water',
-                                                           stylers: [
-                                                                     {
-                                                                     hue: '#0000FF',
-                                                                     visibility: 'on'
-                                                                     }
-                                                                     ]
-                                                           },{
-                                                           featureType: 'poi.park',
-                                                           stylers: [
-                                                                     {
-                                                                     hue: '#26a926',
-                                                                     visibility: 'on',
-                                                                     saturation: 0,
-                                                                     lightness: 0
-                                                                     }
-                                                                     ]
-                                                           }
-                                                           ],
-                                                  mapTypeId: 'terrain'
-                      });
-                      for (var city in citymap) {
-                      // Add the circle for this city to the map.
-                      //console.log(citymap[city].population);
-                        var cityCircle = new google.maps.Circle({
-                          strokeColor: '#FF0000',
-                          strokeOpacity: 0.8,
-                          strokeWeight: 2,
-                          fillColor: '#FF0000',
-                          fillOpacity: 0.35,
-                          map: map,
-                          center: citymap[city].center,
-                          radius: Math.sqrt(citymap[city].population) * 10
-                        });
-                      }
-                  }
-                </script>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
@@ -404,7 +170,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Bike Walnut Creek 2017</p>
+            <p>Copyright &copy; Bike Pleasant Hill 2019</p>
             <p>Photo by Vivian Sutton</p>
         </div>
     </footer>
